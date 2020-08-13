@@ -1,0 +1,19 @@
+<!--pages/download/download.wxml-->
+<view class="main">
+   <view class="table">
+				<view class='thead'>
+					<view class='tr'>
+						<text class="th">文件名</text>
+						<text class="th">更新时间</text>
+						<text class="th">操作</text>
+					</view>
+				</view>
+				<view class='tbody' wx:for="{{list}}" wx:for-item='item' wx:for-index='key'>
+          <view class='tr'>
+            <text class="td">{{item.orgNo}}</text>
+            <text class="td">{{item.tgName}}</text>
+            <text class="td">{{item.tgNo}}</text>
+          </view>
+				</view>
+    </view>
+</view>

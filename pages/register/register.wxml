@@ -1,0 +1,15 @@
+<!--register.wxml-->
+<view class="header">
+   <text>xxx系信息</text>
+</view>
+<view class="main">
+   <text>姓名</text><input type="text" id="name" name="name" bindinput="getName"></input>
+   <text>密码</text><input type="text" id="password" name="password" bindinput="getPass"></input>
+   <text>图片</text><input type="button"  name="file" bindtap="getFile"></input>
+   <image src="{{url}}" ></image>
+   <text>信息</text><textarea class="area" rows="3" cols="55" name="info" id="info" bindinput="getMess"></textarea>
+</view>
+<view class="btn">
+  <button style="width:50px;height:50px;font-size:30rpx;margin: 0 10rpx;" type="button" bindtap="upload">提交</button>
+  <button style="width:50px;height:50px;font-size:30rpx;" type="button" bindtap="reset">重置</button>
+</view>

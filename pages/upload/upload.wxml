@@ -1,0 +1,9 @@
+<!--pages/upload/upload.wxml-->
+<view class="main">
+  <input type="file" id="file1" name="file1"></input>
+  <input type="file" id="file2" name="file2"></input>
+</view>
+<view class="btn">
+  <button bindtap="upload2">上传文件</button>
+</view>
+<view id="qrcode" class="qrcode"></view>

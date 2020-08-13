@@ -1,0 +1,14 @@
+<!--pages/ipaddr/ipaddr.wxml-->
+<view class="main">
+  <view class="content">
+      <view class="d1">
+          <image src="../../images/bgimage.jpg" />
+					<image src="../../images/tm-img-15.jpg" />
+					<image src="../../images/tm-img-05-tn.jpg" />
+      </view>
+      <view class="d2">
+         ip:<input type="text" class="ip" id="ip" placeholder="请输入您的ip地址" />
+					<input type="button" class="confirm" value="确定" bindtap="setIp" />
+      </view>
+  </view>
+</view>

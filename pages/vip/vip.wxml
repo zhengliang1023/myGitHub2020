@@ -1,0 +1,12 @@
+<!--pages/vip/vip.wxml-->
+<view class="vipbox">
+  <view class="">
+    <text>扫一扫充值10元成为永久会员全站资源随意下载!</text>
+    <image src="../../images/money.jpg" class="money"></image>
+  </view>
+  <view id="wxqrcode"></view>
+</view>
+<view class="paybox">
+  <text>money:</text><input type="text" id="money" name="money" />
+  <button type="button" bindtap="wechart">pay</button>
+</view>

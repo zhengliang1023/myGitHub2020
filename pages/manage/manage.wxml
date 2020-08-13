@@ -1,0 +1,25 @@
+<!--manage.wxml-->
+<view id="header">
+  <text bindtap="plat">INFO SINCE2020</text>
+  <view id="info" class="info"></view>
+</view>
+<view class="ppp">
+  <view id="nav">
+    <view class="btn" bindtap="pers"><text>会员</text></view>
+    <view class="btn" bindtap="regtab"><text>注册</text></view>
+    <view class="btn" bindtap="uptab"><text>上传</text></view>
+    <view class="btn" bindtap="downtab"><text>下载</text></view>
+    <view class="btn" bindtap="viptab"><text>充钱</text></view>
+  </view>
+  <view id="section"></view>
+  <view id="aside">
+    <view class="btn" bindtap="nettab"><text>预览</text></view>
+    <view class="btn" bindtap="charttab"><text>曲线</text></view>
+    <view class="btn" bindtap="wxcharge"><text>请求</text></view>
+    <view class="btn" bindtap="maptab"><text>地图</text></view>
+    <view class="btn" bindtap="toIp"><text>ip地址</text></view>
+  </view>
+</view>
+<view id="footer">
+  <text>Copyright zhengliang.com.cn</text>
+</view>

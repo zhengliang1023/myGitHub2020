@@ -1,0 +1,85 @@
+<!--台区经理化综合评价-->
+  <view class="header">
+    <view class="head1">
+        <text class="span1">宁夏台区精益化综合评价</text>
+        <text class="span2">台区精益化看板</text>
+        <text class="span3">综合查询</text>
+    </view>
+    <view class="head2">
+        <text class="span1">统计周期</text>
+        <view></view>
+    </view>
+  </view>
+  <view>
+  <view class="nav">
+    <view class="nav1" id="nav1">
+        <view class="nav11">
+           <text>台区综合评价指数</text>
+           <text>>></text>
+        </view>
+        <view>
+          <view class="nav12">
+              <view><text>{{by}}</text></view>
+              <view><text>本月</text></view>
+          </view>
+          <view class="sx"></view>
+          <view class="nav13">
+              <view><text>{{bn}}</text></view>
+              <view><text>本年</text></view>
+          </view>
+          <view class="sx"></view>
+          <view class="nav14  ">
+              <view><text>{{hb}}</text></view>
+              <view><text>环比</text></view>
+          </view>
+        </view>
+        <view class="nav15"></view>
+        <view class="nav16">
+            <image>图片...</image>
+        </view>
+    </view>
+  </view>
+  <view class="aside">
+    <view class="nav2">
+       <view class="nav21">
+          <text>台区达标情况</text>
+          <text>>></text>
+       </view>
+       <view class="nav22">
+          <text>{{dbl}}</text>
+          <text>达标率</text>
+       </view>
+       <view class="nav23">
+          <text>台区总数:</text><text>{{tqzs}}</text><text>达标数:</text><text>{{tqzs}}</text>
+          <text>未达标数:</text><text>{{wdbs}}</text>
+       </view>
+       <view class="nav24">
+       <image>图片2..</image>
+       </view>
+    </view>
+  </view>
+  <view class="main1">
+      <view class="mtab">
+        <view class="mtab1">
+          <text>排名前10台区</text>
+          <text>>></text>
+        </view>
+        <view class="mtab2">
+          <view class="mtab21">
+              <text>供电单位</text><text>台区经理名称</text><text>台区经理编号</text><text>评价指数</text><text>全区排名</text>
+          </view>
+          <view class="mtab22">
+              <view wx:for="{{list}}" wx:for-item='item' wx:for-index='key'>
+                 <text>{{item.orgNo}}</text><text>{{item.tgName}}</text><text>{{item.tgNo}}</text><text>{{item.pjzs}}</text><text>{{item.paiming}}</text>
+              </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  <view class="main2">
+    <view class="mchart">
+       <ec-canvas ec="{{ec}}" force-use-old-canvas="true"></ec-canvas>
+    </view>
+  </view>  
+</view>
+  <view class="foot">尾部。。。</view>

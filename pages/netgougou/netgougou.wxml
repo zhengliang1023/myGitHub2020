@@ -1,0 +1,21 @@
+<!--pages/netgougou/netgougou.wxml-->
+<view class="main">
+  <view class="box">
+     <a href="inner/tree1.html">单选树</a>
+  </view>
+  <view class="box">
+     <a href="inner/tree1.html">多选树</a>
+  </view>
+  <view class="box">
+     <a href="inner/tree1.html">动态树</a>
+  </view>
+  <view class="box">
+     <a href="inner/tree1.html">表格1</a>
+  </view>
+  <view class="box">
+     <a href="inner/tree1.html">表格2</a>
+  </view>
+  <view class="box">
+     <a href="inner/tree1.html">表格3</a>
+  </view>
+</view>

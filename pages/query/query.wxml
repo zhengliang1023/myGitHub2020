@@ -1,0 +1,28 @@
+<!--pages/query/query.wxml-->
+<view class="main">
+   <view class="table">
+				<view class='thead'>
+					<view class='tr'>
+						<text class="th">用户名</text>
+						<text class="th">注册时间</text>
+						<text class="th">最近登录时间</text>
+						<text class="th">头像</text>
+						<text class="th">预览链接</text>
+					</view>
+				</view>
+				<view class='tbody' wx:for="{{list}}" wx:for-item='item' wx:for-index='key'>
+          <view class='tr'>
+            <text class="td">{{item.orgNo}}</text>
+            <text class="td">{{item.tgName}}</text>
+            <text class="td">{{item.tgNo}}</text>
+            <text class="td">{{item.pjzs}}</text>
+            <text class="td">{{item.paiming}}</text>
+          </view>
+				</view>
+				<view class='tfoot'>
+					<view class='tr'>
+						<text class="td">sorry,目前还没有注册人员！</text>
+					</view>
+				</view>
+    </view>
+</view>

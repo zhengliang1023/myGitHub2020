@@ -1,0 +1,166 @@
+/* pages/platform/platform.wxss */
+page {
+  background: #081538;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: wheat;
+}
+
+.head1{
+  background-color: #283d7c;
+  color:white;
+  text-align: left;
+  padding: 15px; 
+}
+
+.head2{
+  background-color: #283d7c;
+  color:white;
+  text-align: left;
+  padding: 15px; 
+  margin-top: 5px;
+}
+.head1>.span1{
+  font-size: 50%;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 0%;
+  top: 50%;
+}
+.head1 .span2{
+				font-size:50%;
+				font-family:Microsoft YaHei;
+				font-weight:bold;
+				color:rgba(79,125,255,1);
+				position: relative;
+				left: 10%;
+				top: 50%;
+			}
+			.head1 .span3{
+				font-size: 50%;
+				font-family:Microsoft YaHei;
+				font-weight:bold;
+				color:rgba(192,192,192,1);
+				position: relative;
+				left: 12%;
+				top: 50%;
+			}
+      .head2>.span1{
+        font-size: 50%;
+        font-family:Microsoft YaHei;
+				font-weight:bold;
+				color:rgba(255,255,255,1);
+      }
+      .nav{
+        float: left;
+        background-color: wheat;
+        width: 50%;
+        height: 200px;
+      }
+      .aside{
+        float: right;
+        background-color: greenyellow;
+        width: 50%;
+        height: 200px;
+        padding: 0;
+      }
+      .nav1,.nav2{
+				float: left;
+				background-color: #283d7c;
+				margin: 5% 5%;
+        width: 90%;
+        height: 90%;
+        border-radius: 5px;
+			}
+
+      .nav1 text,.nav2 text,.mtab>.mtab1 text,.mchart>.mchart1 text{
+				font-size:50%;
+				font-family:Microsoft YaHei;
+				font-weight:bold;
+				color:rgba(255,255,255,1);
+			}
+      .nav12,.nav13,.nav14{
+        float: left;
+        position: relative;
+        margin: 10% 7% 10% 7%;
+      }
+      .sx{
+				float: left;
+				width:1%;
+				height:50px;
+				border:1px solid rgba(219,219,219,1);
+				position: relative;
+				margin-top:10%;
+				background: white;
+				border-radius: 20%;
+			}
+      .nav15{
+        border: 1px solid gold;
+        position: relative;
+        margin:50% 7%;
+      }
+      .nav22{
+        width: 50%;
+        height: 45%;
+        border-radius:50%;
+        background:pink;
+        margin: 5% 25%;
+      }
+      .nav22>text{
+			    position: relative;
+			    line-height: 0px;
+			    left: 20%;
+			    top: 18%;
+			}
+      .nav23{
+        font-size: 20px;
+        font-weight: normal;
+      }
+      .main1{
+        height: 150px;
+        background-color: yellow;
+        margin-top:55%;
+      }
+      .main2{
+        height: 150px;
+        background-color:gainsboro;
+      }
+      .mtab{
+        width: 95%;
+        height: 90%;
+        background-color: #283d7c;
+        position: relative;
+        top: 5%;
+        left:2.5%;
+
+      }
+      .mchart{
+        width: 95%;
+        height: 90%;
+        background-color: #283d7c;
+        position: relative;
+        animation-iteration-count: 5%;
+        top: 5%;
+        left:2.5%;
+
+      }
+      .mtab2>.mtab21> text{
+        font-size: 30%;
+        font-weight: normal;
+        color: red;
+        padding: 1% 2%;
+      }
+
+      .mtab2>.mtab22 text{
+        font-size: 30%;
+        font-weight: normal;
+        color:white;
+        padding: 0% 5%;
+      
+        background:greenyellow;
+      }
+
+
