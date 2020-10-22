@@ -1,0 +1,36 @@
+/** wxss **/
+/** 修改button默认的点击态样式类**/
+page{
+  background-color: greenyellow;
+}
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+button {margin: 10px;}
+
+input, .row{
+  background-color: gainsboro;
+  border: greenyellow solid 1px;
+  height: 100rpx;
+  text-align: center;
+  font-family: cursive;
+  line-height: 100rpx;
+}
+/* 颜色交替 */
+.row:nth-child(even) {
+  background:rgb(211, 240, 158);
+}
+.row:nth-child(odd) {
+  background:rgb(230, 177, 221);
+}
+
+input:nth-child(even) {
+  background:orange;
+}
+input:nth-child(odd) {
+  background:pink;
+}

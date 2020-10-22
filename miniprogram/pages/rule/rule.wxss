@@ -1,0 +1,22 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+page{
+  background-color: greenyellow;
+}
+.title{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100rpx;
+  font-weight: bold;
+  color:brown;
+}
+.content{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 75rpx;
+  font-weight: bold;
+  color: brown;
+  margin-top: 30rpx;
+}

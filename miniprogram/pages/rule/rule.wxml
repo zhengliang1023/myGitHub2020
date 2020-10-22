@@ -1,0 +1,11 @@
+<view class="btn-area">
+  <view class="body-view">
+    <view class="title"><text>春晓</text></view>
+    <view class="content"><text>春眠不觉晓,</text></view>
+    <view class="content"><text>处处闻啼鸟。</text></view>
+    <view class="content"><text>夜来风雨声,</text></view>
+    <view class="content"><text>花落知多少。</text></view>
+    <!-- <button bindtap="add">add line</button>
+    <button bindtap="remove">remove line</button> -->
+  </view>
+</view>

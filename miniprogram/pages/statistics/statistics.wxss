@@ -1,0 +1,17 @@
+/* pages/mychart/mychart.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  background-color: yellowgreen;
+}
+.mchart{
+  width: 100%;
+  height: 48%;
+  margin: 2% auto;
+  background-color: orchid;
+}
+

@@ -1,0 +1,44 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <view class="section__title">问题描述：</view>
+    <input name="phone"  placeholder="请输入问题" />
+  </view>
+  <view class="section">
+    <view class="section__title">选项A</view>
+    <input name="name" placeholder="请输入选项A" />
+  </view>
+  <view class="section">
+    <view class="section__title">选项B</view>
+    <input name="name" placeholder="请输入选项B" />
+  </view>
+  <view class="section">
+    <view class="section__title">选项C</view>
+    <input name="name" placeholder="请输入选项C" />
+  </view>
+  <view class="section">
+    <view class="section__title">选项D</view>
+    <input name="name" placeholder="请输入选项D" />
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">单选正确答案</view>
+    <radio-group name="radio-group">
+      <label><radio value="radio1"/>A</label>
+      <label><radio value="radio2"/>B</label>
+      <label><radio value="radio3"/>C</label>
+      <label><radio value="radio4"/>D</label>
+    </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">多选正确答案</view>
+    <checkbox-group name="checkbox">
+      <label><checkbox value="checkbox1"/>A</label>
+      <label><checkbox value="checkbox2"/>B</label>
+      <label><checkbox value="checkbox3"/>C</label>
+      <label><checkbox value="checkbox4"/>D</label>
+    </checkbox-group>
+  </view>
+  <view class="btn-area">
+    <button type="primary" formType="submit">Submit</button>
+    <button type="warn" formType="reset">Reset</button>
+  </view>
+</form>

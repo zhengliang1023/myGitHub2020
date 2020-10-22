@@ -1,0 +1,9 @@
+<!--pages/mychart/mychart.wxml-->
+<view class="main">
+    <view class="mchart">
+       <ec-canvas ec="{{ec}}" force-use-old-canvas="true"></ec-canvas>
+    </view>
+    <view class="mchart">
+       <ec-canvas ec="{{ec2}}" force-use-old-canvas="true"></ec-canvas>
+    </view>
+  </view>  

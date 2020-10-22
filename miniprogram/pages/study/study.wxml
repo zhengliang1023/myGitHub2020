@@ -1,0 +1,42 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <!-- <view class="section section_gap">
+    <view class="section__title">switch</view>
+    <switch name="switch"/>
+  </view> -->
+  <!-- <view class="section section_gap">
+    <view class="section__title">slider</view>
+    <slider name="slider" show-value ></slider>
+  </view> -->
+
+  <view class="section section_gap">
+    <view class="section__title">1.中国的首都是？</view>
+    <radio-group name="radio-group">
+      <label><radio value="radio1"/>北京</label>
+      <label><radio value="radio2"/>上海</label>
+      <label><radio value="radio2"/>南京</label>
+      <label><radio value="radio2"/>广州</label>
+    </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">2.中国的首都是？</view>
+    <radio-group name="radio-group">
+      <label><radio value="radio1"/>北京</label>
+      <label><radio value="radio2"/>上海</label>
+      <label><radio value="radio2"/>南京</label>
+      <label><radio value="radio2"/>广州</label>
+    </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">3.四大名著是？</view>
+    <checkbox-group name="checkbox">
+      <label><checkbox value="checkbox1"/>西游记</label>
+      <label><checkbox value="checkbox2"/>三国演义</label>
+      <label><checkbox value="checkbox2"/>水浒传</label>
+      <label><checkbox value="checkbox2"/>红楼梦</label>
+    </checkbox-group>
+  </view>
+  <view class="btn-area">
+    <button type="primary" formType="submit">Submit</button>
+    <button type="warn" formType="reset">Reset</button>
+  </view>
+</form>
